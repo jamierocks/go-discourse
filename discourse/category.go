@@ -6,6 +6,7 @@ import (
 
 type Category struct {
     Users []CategoryUser `json:"users"`
+    TopicList CategoryTopicList `json:"topic_list"`
 }
 
 type CategoryUser struct {
